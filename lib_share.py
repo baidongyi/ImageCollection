@@ -16,11 +16,11 @@ def wl(msg: str, level: int = 1):
 
 def get_base_folder() -> str:
     if sys.platform == 'linux':
-        base_folder = '/home/tony/App/Pic18'
+        base_folder = '~/Pic18'
     elif sys.platform == 'darwin':
-        base_folder = '/Users/baidongyi/Pictures/Pic18'
+        base_folder = '~/Pic18'
     elif sys.platform == 'win32':
-        base_folder = r'D:\App\Pic18'
+        base_folder = r'C:\Pic18'
     return base_folder
 
 
